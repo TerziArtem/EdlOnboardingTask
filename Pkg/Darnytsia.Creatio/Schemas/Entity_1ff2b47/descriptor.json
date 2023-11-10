@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0083d1c4-ee2f-4c56-9ecd-afe8c54e9539",
+    "Name": "Entity_1ff2b47",
+    "ModifiedOnUtc": "\/Date(1697361562000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Author of the book",
+    "DependsOn": []
+  }
+}

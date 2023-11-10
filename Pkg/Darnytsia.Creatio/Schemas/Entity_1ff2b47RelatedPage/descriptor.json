@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "64a5288b-1240-4129-bd29-090f6a11e5af",
+    "Name": "Entity_1ff2b47RelatedPage",
+    "ModifiedOnUtc": "\/Date(1697361565000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Автор книги (Налаштування сторінки)",
+    "DependsOn": []
+  }
+}

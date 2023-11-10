@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "96848557-6bbd-4454-baeb-370b434f93ac",
+    "Name": "EdlBookRelatedPage",
+    "ModifiedOnUtc": "\/Date(1653392202000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Book (Page settings)",
+    "DependsOn": []
+  }
+}

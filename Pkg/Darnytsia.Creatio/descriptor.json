@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "a7e06617-237a-ed5a-dde7-50ca84a45e9c",
+    "Name": "Darnytsia.Creatio",
+    "ModifiedOnUtc": "\/Date(1696617177000)\/",
+    "Maintainer": "Edenlab",
+    "DependsOn": [
+      {
+        "UId": "3f299622-2079-4a62-ba18-6d32c1d0d6af",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise_Marketing_ServiceEnt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "45adeb0f-befd-4a27-80d8-0b157bef4e80",
+    "Name": "EdlBookStatus",
+    "ModifiedOnUtc": "\/Date(1697185696000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Стан книги",
+    "DependsOn": []
+  }
+}

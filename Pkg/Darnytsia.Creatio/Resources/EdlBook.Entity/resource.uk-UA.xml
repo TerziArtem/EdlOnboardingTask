@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Book" />
+			<Item Name="Columns.BookStatus.Caption" Value="Стан книги" />
+			<Item Name="Columns.CoverType.Caption" Value="Тип палітурки" />
+			<Item Name="Columns.Description.Caption" Value="Опис" />
+			<Item Name="Columns.Name.Caption" Value="Заголовок" />
+			<Item Name="Columns.PageCount.Caption" Value="Кількість сторінок" />
+			<Item Name="Columns.PublishDate.Caption" Value="Дата публікації" />
+		</Items>
+	</Group>
+</Resources>

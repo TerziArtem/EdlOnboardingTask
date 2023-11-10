@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Book form page" />
+			<Item Name="LocalizableStrings.addRecord_2wlil4u_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.addRecord_4d9d02t_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.addRecord_8260qbt_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.addRecord_nbj7evo_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.addRecord_w0eld7l_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.CreateEmailBtn_xeqwdsf_caption.Value" Value="Створити email" />
+			<Item Name="LocalizableStrings.CreateTaskBtn_7q3qyg6_caption.Value" Value="Створити завдання" />
+			<Item Name="LocalizableStrings.ExpansionPanel_all4dvs_title.Value" Value="Наступні кроки" />
+			<Item Name="LocalizableStrings.ExpansionPanel_j4aslou_title.Value" Value="Автори" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_odo5y2v_caption.Value" Value="Створити" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_bs4rxpt_caption.Value" Value="Експорт в Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_mw9r6u3_caption.Value" Value="Імпорт даних" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_094zrpd_caption.Value" Value="Оновити" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_amxhq1g_placeholder.Value" Value="Пошук" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_gi3uv3y_caption.Value" Value="Дії" />
+		</Items>
+	</Group>
+</Resources>

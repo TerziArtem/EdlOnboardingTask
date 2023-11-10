@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Book" />
+			<Item Name="Columns.BookStatus.Caption" Value="Book status" />
+			<Item Name="Columns.CoverType.Caption" Value="Cover type&#xA;Cover type" />
+			<Item Name="Columns.Description.Caption" Value="Description" />
+			<Item Name="Columns.Name.Caption" Value="Title" />
+			<Item Name="Columns.PageCount.Caption" Value="Page count" />
+			<Item Name="Columns.PublishDate.Caption" Value="Publish date" />
+		</Items>
+	</Group>
+</Resources>
