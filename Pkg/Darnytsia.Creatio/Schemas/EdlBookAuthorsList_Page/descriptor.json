@@ -1,8 +1,8 @@
 ﻿{
   "Descriptor": {
     "UId": "b25825f9-a09b-4096-b10b-f5cc3f9e54fe",
-    "Name": "Page_onabj4y",
-    "ModifiedOnUtc": "\/Date(1697361992000)\/",
+    "Name": "EdlBookAuthorsList_Page",
+    "ModifiedOnUtc": "\/Date(1701964228000)\/",
     "Parent": {
       "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
       "Name": "BaseMiniPageTemplate"

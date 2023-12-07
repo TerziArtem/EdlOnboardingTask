@@ -2,7 +2,7 @@
 
 namespace Darnytsia.Creatio.Contracts.Books;
 
-public class CreateBookAuthorsByIdRequest
+public record CreateBookAuthorsByIdRequest
 {
     public Guid EdlBookId { get; set; }
     public Guid EdlBookAuthorId { get; set; }

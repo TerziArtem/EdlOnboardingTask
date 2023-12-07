@@ -1,4 +1,4 @@
-define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("EdlBook_FormPage", /**SCHEMA_DEPS*/["@darnytsia"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(darnytsia)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -76,7 +76,8 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 					"label": "$Resources.Strings.Name",
 					"control": "$Name",
 					"labelPosition": "auto",
-					"multiline": false
+					"multiline": false,
+					"readonly": "$IsBookNameReadOnly"
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
@@ -444,7 +445,7 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 			},
 			{
 				"operation": "insert",
-				"name": "EdlBookAuthor",
+				"name": "EdlBookAuthorGridDetail",
 				"values": {
 					"type": "crt.DataGrid",
 					"layoutConfig": {
@@ -464,10 +465,20 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 					"primaryColumnName": "GridDetail_groiew2DS_Id",
 					"columns": [
 						{
-							"id": "9e64da5a-d961-82df-501b-4190336a1bd3",
-							"code": "GridDetail_groiew2DS_Name",
-							"caption": "#ResourceString(GridDetail_groiew2DS_Name)#",
-							"dataValueType": 28
+							"id": "26fec660-c0d0-8fdb-1d07-dc2d9a5065df",
+							"code": "GridDetail_groiew2DS_EdlBookAuthor",
+							"path": "EdlBookAuthor",
+							"caption": "#ResourceString(GridDetail_groiew2DS_EdlBookAuthor)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "Contact"
+						},
+						{
+							"id": "2108f150-f1b2-79a1-05e8-ce7abb528594",
+							"code": "GridDetail_groiew2DS_EdlBook",
+							"path": "EdlBook",
+							"caption": "#ResourceString(GridDetail_groiew2DS_EdlBook)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "EdlBook"
 						}
 					]
 				},
@@ -528,9 +539,14 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 					},
 					"viewModelConfig": {
 						"attributes": {
-							"GridDetail_groiew2DS_Name": {
+							"GridDetail_groiew2DS_EdlBookAuthor": {
 								"modelConfig": {
-									"path": "GridDetail_groiew2DS.Name"
+									"path": "GridDetail_groiew2DS.EdlBookAuthor"
+								}
+							},
+							"GridDetail_groiew2DS_EdlBook": {
+								"modelConfig": {
+									"path": "GridDetail_groiew2DS.EdlBook"
 								}
 							},
 							"GridDetail_groiew2DS_Id": {
@@ -540,7 +556,8 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 							}
 						}
 					}
-				}
+				},
+				"IsBookNameReadOnly": {}
 			}
 		}/**SCHEMA_VIEW_MODEL_CONFIG*/,
 		modelConfig: /**SCHEMA_MODEL_CONFIG*/{
@@ -558,8 +575,11 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 					"config": {
 						"entitySchemaName": "Entity_1ff2b47",
 						"attributes": {
-							"Name": {
-								"path": "Name"
+							"EdlBookAuthor": {
+								"path": "EdlBookAuthor"
+							},
+							"EdlBook": {
+								"path": "EdlBook"
 							}
 						}
 					}
@@ -575,8 +595,8 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 				]
 			}
 		}/**SCHEMA_MODEL_CONFIG*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
-		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
+		handlers: /**SCHEMA_HANDLERS*/darnytsia.ui.pages.EdlBook_FormPage()/**SCHEMA_HANDLERS*/,
+		converters: /**SCHEMA_CONVERTERS*/[]/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
 	};
 });

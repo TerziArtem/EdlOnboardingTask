@@ -2,7 +2,7 @@
 
 namespace Darnytsia.Creatio.Contracts.Contacts;
 
-public class UpdateContactBirthdayDateRequest
+public record UpdateContactBirthdayDateRequest
 {
     public DateTime BirthdayDate { get; set; }
 }

@@ -1,4 +1,4 @@
-define("Page_onabj4y", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("EdlBookAuthorsList_Page", /**SCHEMA_DEPS*/['@darnytsia']/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(darnytsia)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -110,7 +110,7 @@ define("Page_onabj4y", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARG
 			},
 			"primaryDataSourceName": "Entity_1ff2b47DS"
 		}/**SCHEMA_MODEL_CONFIG*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		handlers: /**SCHEMA_HANDLERS*/darnytsia.ui.pages.EdlBookAuthorsList_Page()/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
 	};
